@@ -1,0 +1,123 @@
+.hero-section{
+
+    display: flex;
+   
+    background-color: #D0C7C2;
+    background: cover;
+    padding-bottom: 100px;
+}
+.hero-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact h1{
+    font-size: 48px;
+    margin-top: 50px;
+    color: #4A332D;   
+}
+
+.contact p{
+
+    color: #4A332D;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.email h3{
+    font-size: 24px;
+    color: #4A332D;
+    margin-bottom: 10px;
+}
+
+.email a{
+    text-decoration: none;
+    color: #4A332D;
+}
+
+.phone h3{
+    font-size: 24px;
+    color: #4A332D;
+    margin-top: 50px;
+}
+
+.phone p{
+    margin-top: 10px;
+
+}
+
+.icons-contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    gap: 15px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.contact-us h1{
+    background-color: #4A332D;
+    color: #F5F2EA;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 400;
+}
+
+.icons-contact i{
+    font-size: 24px;
+    color: #4A332D;
+}
+
+form {
+    margin-top: 130px;
+}
+
+form label{
+
+    font-size: 20px;
+    color: #4A332D;
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+form input {
+    background-color: #AC9F96;
+    border-radius: 8px;
+    border: 0;
+    width: 100%;
+    padding :10px 20px;
+    margin-bottom : 20px;
+}
+form button {
+    background-color: #4A332D;
+    padding :10px 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+ 
+
+}
+@media screen and (min-width: 992px) {
+    .hero-section{
+        padding-bottom: 150px;
+    }    
+    .col-6 {
+        width:calc(50% - 20px); 
+    }
+}
+@media screen and (min-width: 1200px) {
+
+}

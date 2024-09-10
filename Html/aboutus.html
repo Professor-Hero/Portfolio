@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f9a1ef6133.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/aboutus.css">
+
+    <title>About us</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="desktop-navigation">
+            <div class="showNavbar icon-wrap container ">
+                <div class="logo">
+                    <a href="../index.html"><img src="../Images/logo.png" alt="logo"></a>
+                </div>
+                <a class="hamburger-icon" onclick="showSidebar() " href="#"><i class="fa-solid fa-bars"></i></a>
+                <!-- hamburger-icon -->
+            </div>
+            <div class="nav-bar-hide-color sidebar">
+                <div class="nav-bar-hide container">
+                    <div class="icon-wrap sidebar">
+                        <div class="logo">
+                            <a href="../index.html"><img src="../Images/logo_white.png" alt="logo"></a>
+                        </div>
+                        <a onclick="hideSidebar()" href="#"><i class="fa-solid fa-x"></i></a>
+                    </div>
+
+                    <div class="main-wrap">
+                        <div class="col-3 info-wrap">
+                            <div class="info-01">
+                                <h2>Hours</h2>
+                                <ul>
+                                    <li>Everyday 9am - 9pm</li>
+                                    <li>Friday 10am - 8pm</li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2>FIND US AT</h2>
+                                <ul>
+                                    <li>Kupondole Hts Rd,</li>
+                                    <li>Lalitpur</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 info-wrap">
+                            <div class="info">
+                                <h2>GET IN TOUCH</h2>
+                                <ul>
+                                    <li>01-42683948</li>
+                                    <a href="#">
+                                        <li>immerseinterior@gmail.com</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="info contact-us">
+                                <h2>Contact Us</h2>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="col-4 menu-links">
+                            <li><a href="../Html/aboutus.html">About us</a></li>
+							<li><a href="../Html/ourservices.html">Services</a></li>
+							<li><a href="../Html/portfolio.html">Portfolio</a></li>
+                            <li><a href="../Html/contactus.html">Contact us</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <section class="hero-section container">
+        <h1>Who Are We?</h1>
+        <p>
+            Welcome to our world of interior design, where imagination meets functionality and style
+            transcends boundaries. Immerse Interior, we are passionate about transforming spaces
+            into stunning reflections of our clients' personalities and lifestyles. From contemporary
+            chic to timeless elegance, we believe that every space has the potential to inspire and
+            delight. Let us turn your dreams into reality, one exquisite design at a time.<br><br>
+            Step into a realm of creativity and craftsmanship at Immerse Interior, where every room
+            tells a story. Our ethos revolves around merging aesthetics with functionality, creating
+            spaces that not only look remarkable but also feel like home. Whether you're seeking a
+            modern sanctuary, a classic retreat, or something uniquely yours, we're committed to
+            
+            crafting interiors that exceed your expectations. Let us be your partner in bringing beauty
+            and comfort into your world.
+
+        </p>
+
+    </section>
+    <section class="team-container">
+        <div class="about-img">
+        </div>
+        <div class="team-text container">
+            <p>
+                From initial concept to final execution, we prioritize your needs, ensuring every detail reflects your style and personality. Whether it's a 
+                cozy nook or a grand renovation, we're here to transform your space into a haven you'll love coming home to. Let's embark on this 
+                journey together and create interiors that speak volumes about who you are. Welcome home to Immerse Interior.
+            </p>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="main-footer container">
+            <div class="footerpnt">
+                <div class="logoimg">
+                    <a href="#"><img src="../Images/logofooter.png"></a>
+                </div>
+                <div class="footer-wrap">
+                    <ul class="footer-menu">
+                        <li><a href="../Html/aboutus.html">About us</a></li>
+						<li><a href="../Html/ourservices.html">Services</a></li>
+						<li><a href="../Html/portfolio.html">Portfolio</a></li>
+                        <li><a href="../Html/contactus.html">Contact us</a></li>
+                    </ul>
+                    <div class="socialmedia">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+    </script>
+
+</body>
+
+</html>

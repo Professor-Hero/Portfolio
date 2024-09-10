@@ -1,0 +1,261 @@
+.hero-section {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../Images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hero-texts {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.hero-texts h1 {
+    color: #D0C7C2;
+    font-size: 58px;
+    margin-bottom: 16px;
+}
+
+.hero-texts p {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+
+.about {
+    padding: 100px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #fff;
+}
+
+.about-company h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #6C4A3F;
+}
+
+
+.about-company p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #4A332D;
+}
+
+.about-company a {
+    font-size: 24px;
+    color: #896B60;
+    text-transform: capitalize;
+}
+
+.our-services {
+    background-color: #D0C7C2;
+    padding: 100px 0;
+}
+
+.our-services h1 {
+    font-size: 48px;
+    color: #6C4A3F;
+
+}
+
+.our-services h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #6C4A3F;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.our-services p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #4A332D;
+    padding: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.services-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.slider-contents a i {
+    color: #896B60;
+    font-size: 24px;
+
+}
+
+.slider-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    order: 1;
+}
+
+.slider-arrow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slider-img {
+    height: 778px;
+}
+
+.slider-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.mySlide {
+    display: none;
+}
+
+@keyframes fade {
+    from {
+        opacity: 4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 60px 0px;
+    flex-wrap: wrap;
+}
+
+.row h1 {
+    font-size: 48px;
+    color: #6C4A3F;
+
+}
+
+.row a {
+    font-size: 24px;
+    color: #896B60;
+
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.maindiv .img-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.maindiv .img-flex.col-4 {
+    width: calc(33.33% - 30px)
+}
+
+.maindiv .img-flex .img-wrap img {
+    width: 100%;
+}
+
+.maindiv .img-flex p {
+    color: #896B60;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+@media screen and (min-width: 576px) {
+    .services-contents {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-company {
+        width: 508px;
+    }
+
+    .hero-texts {
+        text-align: center;
+    }
+
+    .our-services h2 {
+        width: 400px;
+    }
+
+    .our-services p {
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .services-contents {
+        flex-wrap: initial;
+    }
+    .slider-contents {
+        order: initial;
+    }
+
+    .our-services h1 {
+        padding: 5px 60px;
+
+    }
+
+    .our-services h2 {
+        padding: 5px 60px;
+    }
+
+    .our-services p {
+
+        padding: 10px 60px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {}

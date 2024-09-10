@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/f9a1ef6133.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="desktop-navigation">
+			<div class="showNavbar icon-wrap container ">
+				<div class="logo">
+					<a href="./index.html"><img src="./Images/logo.png" alt="logo"></a>
+				</div>
+				<a class="hamburger-icon" onclick="showSidebar() " href="#"><i class="fa-solid fa-bars"></i></a>
+				<!-- hamburger-icon -->
+			</div>
+			<div class="nav-bar-hide-color sidebar">
+				<div class="nav-bar-hide container">
+					<div class="icon-wrap sidebar">
+						<div class="logo">
+							<a href="./index.html"><img src="./Images/logo_white.png" alt="logo"></a>
+						</div>
+						<a onclick="hideSidebar()" href="#"><i class="fa-solid fa-x"></i></a>
+					</div>
+
+					<div class="main-wrap">
+						<div class="col-3 info-wrap">
+							<div class="info-01">
+								<h2>Hours</h2>
+								<ul>
+									<li>Everyday 9am - 9pm</li>
+									<li>Friday 10am - 8pm</li>
+								</ul>
+							</div>
+							<div class="info">
+								<h2>FIND US AT</h2>
+								<ul>
+									<li>Kupondole Hts Rd,</li>
+									<li>Lalitpur</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-3 info-wrap">
+							<div class="info">
+								<h2>GET IN TOUCH</h2>
+								<ul>
+									<li>01-42683948</li>
+									<a href="#">
+										<li>immerseinterior@gmail.com</li>
+									</a>
+								</ul>
+							</div>
+							<div class="info contact-us">
+								<h2>Contact Us</h2>
+								<ul>
+									<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="col-4 menu-links">
+							<li><a href="./Html/aboutus.html">About us</a></li>
+							<li><a href="./Html/ourservices.html">Services</a></li>
+							<li><a href="./Html/portfolio.html">Portfolio</a></li>
+							<li><a href="./Html/contactus.html">Contact us</a></li>
+						</ul>
+						
+					</div>
+
+
+				</div>
+			</div>
+
+
+		</nav>
+
+	</header>
+
+	<section class="hero-section">
+		<div class="hero-texts">
+			<h1>Elevate Your Space</h1>
+			<p> Transform Your Home with Our Expert Interior Design Services</p>
+		</div>
+		<a class="button" href="./Html/contactus.html">Book an Appointment</a>
+	</section>
+
+	<section class="about container">
+		<div class="about-company">
+			<h1>About the Company</h1>
+			<p>
+				At Immerse Interior, we redefine spaces with style and substance.
+				Our expert team crafts bespoke interiors that blend functionality and aesthetics seamlessly.
+				From residential sanctuaries to commercial hubs, we curate immersive environments that inspire and
+				delight.
+				Let us transform your vision into a captivating reality.
+			</p>
+			<a href="./Html/aboutus.html">LEARN MORE</a>
+		</div>
+
+	</section>
+	<section class="our-services">
+		<div class="container">
+			<h1>Our Services</h1>
+			<div class="services-contents">
+				<div class="slider-contents">
+					<div class="slider-texts">
+						<h2>UNIQUE DESIGN AESTHETICS</h2>
+						<p>
+							A thorough design questionnaire that aids in our comprehension of the project's
+							requirements and scope, as well as your unique
+							design aesthetic.
+						</p>
+					</div>
+					<div class="slider-arrow">
+						<a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+						<a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+				</div>
+
+				<div class="slideshow-container">
+					<div class= "mySlides fade">
+						<div class="slider-images">
+							<img src="./Images/slider.jpg" />
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class="slider-images">
+							<img src="./Images/slider2.jpg" />
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class="slider-images">
+							<img src="./Images/ps.jpg" />
+						</div>
+					</div>	
+					
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="our-projects container">
+		<div class="project-heading">
+			<div class="row">
+				<h1>Our Project</h1>
+				<a href="./Html/ourservices.html">VIEW MORE OF OUR PROJECTS</a>
+			</div>
+		</div>
+		<div class="maindiv">
+			<div class="col-4 img-flex">
+				<div class="img-wrap">
+					<img src="./Images/compactsetup.jpg" alt="">
+				</div>
+				<p>Compact Setup</p>
+			</div>
+
+			<div class="col-4 img-flex">
+				<div class="img-wrap">
+					<img src="./Images/stairs.jpg" alt="">
+				</div>
+				<p>Stairs Setup</p>
+			</div>
+
+			<div class="col-4 img-flex">
+				<div class="img-wrap">
+					<img src="./Images/library.jpg" alt="">
+				</div>
+				<p>Library Setup</p>
+			</div>
+		</div>
+
+
+	</section>
+
+	<footer>
+		<div class="main-footer container">
+			<div class="footerpnt">
+				<div class="logoimg">
+					<a href="#"><img src="./Images/logofooter.png"></a>
+				</div>
+				<div class="footer-wrap">
+					<ul class="footer-menu">
+						<li><a href="./Html/aboutus.html">About us</a></li>
+						<li><a href="./Html/ourservices.html">Services</a></li>
+						<li><a href="./Html/portfolio.html">Portfolio</a></li>
+						<li><a href="./Html/contactus.html">Contact us</a></li>
+					</ul>
+					<div class="socialmedia">
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+
+
+
+	<script>
+		function showSidebar() {
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'flex'
+		}
+		function hideSidebar() {
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'none'
+		}
+
+
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n){
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n){
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			if (n > slides.length) {slideIndex = 1}        
+			if (n <  1) {slideIndex = slides.length}
+			for(i=0; i<slides.length; i++) {
+				slides[i].style.display = "none";    
+			}
+			slides[slideIndex-1].style.display = "block";   
+		}
+
+	</script>
+
+
+</body>
+
+</html>
